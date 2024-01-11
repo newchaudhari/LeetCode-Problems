@@ -4,11 +4,10 @@ public class ThousandSeparator {
     public static void main(String[] args) {
         String string = thousandSeparator(130);
         System.out.println(string);
-
-
     }
 
     public static String thousandSeparator(int n) {
+
 
       /*  String str1 = "";
         if (n < 1000) {
