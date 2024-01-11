@@ -62,12 +62,12 @@ public class DuplicateRotateSortedArray {
                 //skip duplicates
                 //NOTE: what if these elements at start and end were the pivot??
                 //check if start is pivot
-                if (nums[start] > nums[start + 1]) {
+                if (start < end && nums[start] > nums[start + 1]) {
                     return start;
                 }
                 start++;
                 // check if end is pivot
-                if (nums[end] < nums[end - 1]) {
+                if (end > start && nums[end] < nums[end - 1]) {
                     return end - 1;
                 }
                 end--;
