@@ -1,4 +1,4 @@
-package arrays.binarySearch;
+package _dsaPractice.binarySearch;
 
 public class InfiniteArraySearch {
     public static void main(String[] args) {
