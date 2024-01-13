@@ -6,12 +6,11 @@ public class Sorted2DArray {
     public static void main(String[] args) {
 
         int[][] arr = {
-                {1, 2, 3, 4},
-                {5, 6, 7, 8},
-                {9, 10, 11, 12},
-                {13, 14, 15, 16}
+                {1, 3, 5, 7},
+                {10, 11, 16, 20},
+                {23, 30, 34, 60}
         };
-        System.out.println((Arrays.toString(search(arr, 10))));
+        System.out.println((Arrays.toString(search(arr, 8))));
 
     }
 
@@ -69,17 +68,17 @@ public class Sorted2DArray {
         }
 
         // search in 1st half
-        if (target <= matrix[rStart][cMid - 1]) {
+        if (target <= matrix[rStart][cMid]) {
             return binarySearch(matrix, rStart, 0, cMid - 1, target);
         }
 
         //search in 2nd half
-        if (target >= matrix[rStart][cMid + 1] && target < matrix[rStart][cols - 1]) {
+        if (target >= matrix[rStart][cMid] && target <= matrix[rStart][cols - 1]) {
             return binarySearch(matrix, rStart, cMid + 1, cols - 1, target);
         }
 
         // search in 3rd half
-        if (target <= matrix[rStart + 1][cMid - 1]) {
+        if (target <= matrix[rStart + 1][cMid]) {
             return binarySearch(matrix, rStart + 1, 0, cMid - 1, target);
         } else {
             return binarySearch(matrix, rStart + 1, cMid + 1, cols - 1, target);

@@ -5,11 +5,9 @@ import java.util.Arrays;
 public class RowsColumnsMatrix {
     public static void main(String[] args) {
         int[][] arr = {
-                {10, 20, 30},
-                {15, 25, 35},
-                {40, 50, 60}
+                {1, 3}
         };
-        System.out.println(Arrays.toString(search(arr, 0)));
+        System.out.println(Arrays.toString(search(arr, 3)));
 
     }
 
@@ -27,6 +25,7 @@ public class RowsColumnsMatrix {
                 c--;
             }
         }
+
         return new int[]{-1, -1};
     }
 }
