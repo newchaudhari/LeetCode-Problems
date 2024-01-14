@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class RowsColumnsMatrix {
     public static void main(String[] args) {
         int[][] arr = {
-                {1, 3}
+                {-1, 3}
         };
-        System.out.println(Arrays.toString(search(arr, 3)));
+        System.out.println(Arrays.toString(search(arr, -1)));
 
     }
 
@@ -25,6 +25,7 @@ public class RowsColumnsMatrix {
                 c--;
             }
         }
+
 
         return new int[]{-1, -1};
     }
