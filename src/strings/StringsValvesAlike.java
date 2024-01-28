@@ -3,6 +3,8 @@ package strings;
 import java.util.HashSet;
 import java.util.Set;
 
+//https://leetcode.com/problems/determine-if-string-halves-are-alike/description/
+
 public class StringsValvesAlike {
     public static void main(String[] args) {
         String s="textBook";

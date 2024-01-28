@@ -1,7 +1,7 @@
 package arrays;
 
 import java.util.Arrays;
-
+//https://leetcode.com/problems/running-sum-of-1d-array/description/
 public class RunningSumOfArray {
     public static void main(String[] args) {
         int[] arr = {3, 1, 2, 10, 1};

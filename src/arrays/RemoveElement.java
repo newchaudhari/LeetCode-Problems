@@ -1,5 +1,5 @@
 package arrays;
-
+//https://leetcode.com/problems/remove-element/description/
 public class RemoveElement {
     public static void main(String[] args) {
         int[] array = {0,1,2,2,3,0,4,2};

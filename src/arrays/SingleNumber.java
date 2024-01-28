@@ -2,6 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
+//https://leetcode.com/problems/single-number/description/
 public class SingleNumber {
     public static void main(String[] args) {
         int[] array = {2, 2, 1};

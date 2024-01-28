@@ -1,5 +1,6 @@
 package arrays;
 
+//https://leetcode.com/problems/richest-customer-wealth/description/
 public class RichestCustomerWealth {
     public static void main(String[] args) {
         int[][] arr = {

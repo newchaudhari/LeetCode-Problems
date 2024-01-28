@@ -2,6 +2,7 @@ package arrays;
 
 import java.util.*;
 
+//https://leetcode.com/problems/minimum-number-game/description/
 public class MinimumNumberGame {
     public static void main(String[] args) {
 

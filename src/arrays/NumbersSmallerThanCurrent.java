@@ -2,6 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
+//https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
 public class NumbersSmallerThanCurrent {
     public static void main(String[] args) {
         int[] arr = {8, 1, 2, 2, 3};

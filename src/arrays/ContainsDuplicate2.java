@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+//https://leetcode.com/problems/contains-duplicate-ii/description/?envType=list&envId=pi8tk6d3
+
 public class ContainsDuplicate2 {
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 1, 2, 3};

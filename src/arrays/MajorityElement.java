@@ -1,7 +1,7 @@
 package arrays;
 
 import java.util.Arrays;
-
+//https://leetcode.com/problems/majority-element/description/
 public class MajorityElement {
     public static void main(String[] args) {
         int[] array = {2,2,1,1,1,2,2};

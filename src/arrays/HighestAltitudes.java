@@ -1,7 +1,6 @@
 package arrays;
 
-import java.util.Arrays;
-
+//https://leetcode.com/problems/find-the-highest-altitude/description/
 public class HighestAltitudes {
     public static void main(String[] args) {
         int[] arr = {-5, 1, 5, 0, -7};

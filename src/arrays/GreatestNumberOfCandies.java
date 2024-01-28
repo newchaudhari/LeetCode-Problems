@@ -3,6 +3,7 @@ package arrays;
 import java.util.ArrayList;
 import java.util.List;
 
+//https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/
 public class GreatestNumberOfCandies {
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 1, 3};
