@@ -3,6 +3,7 @@ package arrays;
 import java.util.Arrays;
 
 //https://leetcode.com/problems/height-checker/
+
 public class HeightChecker {
     public static void main(String[] args) {
         int[] arr = {1, 1, 4, 2, 1, 3};
