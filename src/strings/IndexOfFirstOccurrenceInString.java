@@ -1,5 +1,6 @@
 package strings;
 
+//https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
 public class IndexOfFirstOccurrenceInString {
     public static void main(String[] args) {
         String haystack = "leetcode";
