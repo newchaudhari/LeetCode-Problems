@@ -12,7 +12,7 @@ public class SortPeople {
 
     }
 
-    // first approach time complexity is 30ms, Try another approach
+    // first approach, time complexity is 30ms, Try another approach
     public static String[] sortPeople(String[] names, int[] heights) {
         boolean swapped;
         for (int i = 0; i < heights.length; i++) {
