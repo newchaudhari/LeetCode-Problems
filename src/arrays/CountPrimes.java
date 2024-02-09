@@ -1,5 +1,9 @@
 package arrays;
 
+import java.util.ArrayList;
+import java.util.List;
+
+//https://leetcode.com/problems/count-primes/description/
 public class CountPrimes {
     public static void main(String[] args) {
 //        System.out.println(countPrimes(10));
