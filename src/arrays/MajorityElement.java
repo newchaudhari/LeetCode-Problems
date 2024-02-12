@@ -9,6 +9,7 @@ public class MajorityElement {
 
     }
 
+    // First approach, time complexity is 2ms
     public static int majorityElement(int[] nums) {
         Arrays.sort(nums);
         int n=nums.length/2;
