@@ -1,5 +1,7 @@
 package strings;
 
+//https://leetcode.com/problems/is-subsequence/description/
+
 public class IsSubsequence {
     public static void main(String[] args) {
         String s = "abc";
