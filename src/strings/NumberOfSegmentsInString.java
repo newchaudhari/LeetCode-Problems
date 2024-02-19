@@ -24,7 +24,7 @@ public class NumberOfSegmentsInString {
         return count;
     }
 
-    // Second approach, time complexity is 0ms
+    // Second approach and time complexity is 0ms
     public static int countSegments2(String s) {
         int count = 0;
         boolean inSegment = false;
