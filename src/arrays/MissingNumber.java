@@ -25,7 +25,13 @@ public class MissingNumber {
         return n;
     }
 
+    // Second Approach using Mathematical Formula, Time Complexity is 0ms
     public int missingNumber2(int[] nums) {
+        //This approach uses the formula to calculate the sum of the first n numbers (n*(n+1)/2),
+        //then subtracts the sum of the array from it. The result is the missing number.
+        //Find the sum of the first n numbers using the formula n*(n+1)/2.
+        //Find the sum of the array.
+        //Subtract the sum of the array from the sum of the first n numbers.
         int n = nums.length;
         int sum = n * (n + 1) / 2;
         for (int num : nums) {
