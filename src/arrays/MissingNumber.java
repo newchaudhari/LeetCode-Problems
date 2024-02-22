@@ -40,7 +40,16 @@ public class MissingNumber {
         return sum;
     }
 
+    // Third Approach using Bit Manipulation (XOR), Time Complexity is 0ms
     public int missingNumber3(int[] nums) {
+
+        //In this approach, you use bitwise XOR operation to find the missing number.
+        //XOR operation on a number with itself results in 0. So, if you XOR all the numbers from 0 to n
+        //and all the numbers in the array,the result will be the missing number.
+
+        //Initialize missing to 0.
+        //Iterate over the array and XOR each number with missing.
+        //After the iteration, the value in missing will be the missing number.
         int missing = nums.length;
         for (int i = 0; i < nums.length; i++) {
             missing ^= i ^ nums[i];
