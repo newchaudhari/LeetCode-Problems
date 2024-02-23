@@ -1,6 +1,6 @@
 package strings;
 
-//https://leetcode.com/problems/number-of-segments-in-a-string/description/
+// https://leetcode.com/problems/number-of-segments-in-a-string/description/
 
 public class NumberOfSegmentsInString {
     public static void main(String[] args) {
