@@ -57,7 +57,15 @@ public class MissingNumber {
         return missing;
     }
 
+    // Fourth Approach using Hash Table, Time Complexity is 6ms
     public int missingNumber4(int[] nums) {
+        //This approach uses a hash table to store each number in the array.
+        // Then, it iterates over the sequence 0, 1, ..., n to find the missing number.
+
+        //Create an empty hash table.
+        //Iterate over the array and store each number in the hash table.
+        //Iterate over the sequence 0, 1, ..., n and check if each number is in the hash table.
+        //The missing number is the one that isn't in the hash table.
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {
             set.add(num);
