@@ -3,6 +3,7 @@ package arrays;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+
 //https://leetcode.com/problems/set-mismatch/description/?envType=list&envId=p227gn3t
 public class SetMismatch {
     public static void main(String[] args) {
@@ -10,16 +11,19 @@ public class SetMismatch {
         System.out.println(Arrays.toString(findErrorNums(arr)));
     }
 
+    // First Approach, Time complexity is 754ms. Try for another approach
     public static int[] findErrorNums(int[] nums) {
-        int[] ans = new int[2];
-        Set<Integer> hashset = new HashSet<>();
-        for (int i = 0; i < nums.length; i++) {
-            if (hashset.contains(nums[i])) {
-                ans[0] = nums[i - 1];
-                ans[1] = nums[i] + 1;
+        int dup = -1, missing = -1;
+
+        for (int i = 1; i <= nums.length; i++) {
+            int count = 0;
+            for (int j = 0; j < nums.length; j++) {
+                if (nums[j] == i) count++;
             }
-            hashset.add(nums[i]);
+
+            if (count == 2) dup = i;
+            else if (count == 0) missing = i;
         }
-        return ans;
+        return new int[]{dup, missing};
     }
 }
