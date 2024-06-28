@@ -2,12 +2,12 @@ package arrays;
 
 //https://leetcode.com/problems/plus-one/description/
 public class PlusOne {
+
     public static void main(String[] args) {
-        int[] array = {9,9,9,9};
-        int[] ints = plusOne(array);
-        for (int n : ints) {
-            System.out.print(n);
-        }
+        int[] array = {9, 9, 9, 9};
+        int[] integers = plusOne(array);
+        for (int n : integers) System.out.print(n);
+
 
 
     }
@@ -26,4 +26,7 @@ public class PlusOne {
         return digits;
     }
 
+
 }
+
+
